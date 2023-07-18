@@ -1,0 +1,21 @@
+template {
+  display: none;
+}
+
+.content {
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.container {
+  padding-right: 35px;
+  border: 2px solid black;
+}
+
+.container-item {
+  padding: 1px;
+}
+
+.container-item-without-padding {
+  padding: 0px;
+}

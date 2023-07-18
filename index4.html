@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+
+  <h1>Sortable Tree</h1>
+   
+  <div class="group" id="main">
+    <div class="header">Main</div>
+    <div class="item">divitem 1</div>
+    <div class="item">divitem 2</div>
+
+    <div class="group item" id="tunnel">
+      <div class="header">Floor 1</div>
+  
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+        <div class="group item" id="zone">
+          <div class="header">Zone 1</div>
+
+          <div class="item">item 12</div>
+          <div class="item">item 22</div>
+      </div>
+  </div>
+
+  </div>
+
+<div class="ghost">ghost div</div>
+  
+
+
+  <script src="js/Sortable_1.6.0.js"></script>
+  <script src="js/app4.js"></script>
+</body>
+</html>

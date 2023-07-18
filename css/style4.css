@@ -1,0 +1,19 @@
+.item {
+  padding: .5em;
+  margin-bottom: .2em;
+  background: rgba(120, 255, 120, 0.8);
+}
+.ghost{
+  background-color: lightyellow;
+  height: 22px;
+  width: 85px;
+}
+.group {
+  padding: .5em;
+  margin-bottom: 1em;
+  background: rgba(255, 120, 120, 0.2);
+}
+
+.item.group {
+  background: rgba(120, 120, 255, 0.2);
+}

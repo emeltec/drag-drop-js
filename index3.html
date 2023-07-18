@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+  <h3>Sortable.js nested list example</h3>
+<p>* To move a group box, use right side of it (blank space) </p>
+<p>* To move text, simple drag and drop</p>
+<ul>
+  <li> Inner containers have to be wrapped ("container-item"), and wrapper containers must have some padding.</li>
+  <li> A wrapper without padding produces bugs.</li>
+</ul>
+
+<h5>Works expected</h5>
+<div class="container">
+  <div class="content">
+    C1
+  </div>
+  <div class="content">
+    C2
+  </div>
+  <div class="container-item">
+    <div class="container">
+      <div class="content">
+        C3
+      </div>
+      <div class="content">
+        C4
+      </div>
+    </div>
+  </div>
+  <div class="container-item">
+    <div class="container">
+      <div class="content">
+        C5
+      </div>
+      <div class="content">
+        C6
+      </div>
+    </div>
+
+  </div>
+  <div class="content">
+    C7
+  </div>
+</div>
+
+
+<h5>Without padding not works</h5>
+<div class="container">
+  <div class="content">
+    C1
+  </div>
+  <div class="content">
+    C2
+  </div>
+  <div class="container-item-without-padding">
+    <div class="container">
+      <div class="content">
+        C3
+      </div>
+      <div class="content">
+        C4
+      </div>
+    </div>
+  </div>
+  <div class="container-item-without-padding">
+    <div class="container">
+      <div class="content">
+        C5
+      </div>
+      <div class="content">
+        C6
+      </div>
+    </div>
+
+  </div>
+  <div class="content">
+    C7
+  </div>
+</div>
+
+  
+
+
+
+  <script src="js/Sortable_1.6.0.js"></script>
+  <script src="js/app3.js"></script>
+
+</body>
+</html>

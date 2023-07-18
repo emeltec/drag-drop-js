@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div draggable="true" class="box">A</div>
+    <div draggable="true" class="box">B</div>
+    <div draggable="true" class="box">C</div>
+  </div>
+
+
+
+
+  <div id="caja" data-hola="xx">
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <span id="drag" draggable="true" ondragstart="drag(event)">drag me to the other box</span>
+    </div>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
